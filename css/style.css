@@ -381,8 +381,7 @@ html {
     inset 0 1px 0 0 var(--clr-primary),
     inset 1px 0 0 0 var(--clr-primary),
     inset -4px 0 0 0 var(--clr-primary),
-    inset 0 -4px 0 0 var(--clr-primary);
-    
+    inset 0 -4px 0 0 var(--clr-primary); 
 }
 
 /* NAVBAR RESPONSIVE SECTION */
@@ -412,7 +411,7 @@ html {
     justify-content: center;
     display: none;
     gap: unset;
-    margin-top: 36px;
+    margin-top: 60px;
     left: 0;
     background-color: var(--clr-white);
     z-index: 1000;
@@ -421,6 +420,7 @@ html {
 
     .in-items.active {
     display: flex;
+    padding-top: 20px;
     }
 
     .nav-items {
@@ -458,6 +458,12 @@ html {
 }
 
 @media all and (max-width:480px){
+    .brand-logo{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    }
+
     .navbar {
     display: flex;
     position: relative;
@@ -503,6 +509,7 @@ html {
     .menu-open-icon {
     display: flex;
     padding: 6px;
+    margin-top: 0px;
     }
 }
 
